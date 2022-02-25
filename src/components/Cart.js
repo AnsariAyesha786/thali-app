@@ -25,20 +25,20 @@ for(const item of thali){
   <div className="card-body">
     <h5 className="card-title">{ele.name}</h5>
     <p className="card-text">Quantity: {ele.quantity}</p>
-    <p>Price:{ele.price}</p>
-    <p>totalPrice:{ele.totalPrice}</p>
+    <p>Price: $ {ele.price}</p>
+    <p>TotalPrice: $ {ele.totalPrice}</p>
     <button onClick={()=>Remove(ind)} className="btn btn-primary">Remove</button>
         
   </div>
   </div>
 </div>
     
-    
-    
+
+        
     )
     )
 }
-<h3 className='text-center text-success'>Your Sub total price :{sum}</h3>
+<h3 className='text-center text-success'>Your Sub total price : $ {sum}</h3>
 </div>
     </div>
   )
