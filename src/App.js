@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Menu from './components/Menu';
 import Cart from './components/Cart';
 import Product from './components/Product';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         <Route path='/Product' element={<Product/>}/>
         <Route path="/Cart" element={<Cart />} />
        </Routes>
+       <Footer/>
      </Router>
     </div>
   );

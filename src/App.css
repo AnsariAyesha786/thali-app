@@ -26,6 +26,11 @@ background-color: rgb(26, 201, 157);
 border-radius: 5px;
 color: white;
 }
+.icons :hover{
+  padding: 8px;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
 /* <div className='row' style={{marginTop:"40px"}}> 
 
       {
